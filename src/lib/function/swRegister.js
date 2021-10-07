@@ -1,4 +1,6 @@
-const onUpdate = reg => console.log("ON UPDATE", reg);
+import { updateState } from "../components/PwaUpdater";
+
+const onUpdate = reg => updateState(reg);
 const onSuccess = () => console.log("SERVICE WORKER UPDATE SUCCESS");
 
 const swRegister = { onUpdate, onSuccess };
