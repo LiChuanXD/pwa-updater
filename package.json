@@ -1,13 +1,20 @@
 {
   "name": "pwa-updater",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "private": false,
   "description": "Progressive Web App Service Worker Updater",
   "author": "Li Chuan",
-  "keywords": ["react", "pwa", "serviceWorker"],
+  "keywords": [
+    "react",
+    "pwa",
+    "serviceWorker"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/LiChuanXD/pwa-updater.git"

@@ -18,6 +18,6 @@ Object.defineProperty(exports, "swRegister", {
 
 var _PwaUpdater = _interopRequireDefault(require("./components/PwaUpdater"));
 
-var _swRegister = _interopRequireDefault(require("./function/swRegister"));
+var _swRegister = _interopRequireDefault(require("./sw/swRegister"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

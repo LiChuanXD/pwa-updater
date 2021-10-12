@@ -1,5 +1,5 @@
 import PwaUpdater from "./components/PwaUpdater";
-import swRegister from "./function/swRegister";
+import swRegister from "./sw/swRegister";
 
 export {
     PwaUpdater,
